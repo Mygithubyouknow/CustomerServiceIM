@@ -109,11 +109,11 @@ public final class EaseUI {
             Log.e(TAG, "enter the service process!");
             return false;
         }
-        if(options == null){
-            EMClient.getInstance().init(context, initChatOptions());
-        }else{
-            EMClient.getInstance().init(context, options);
-        }
+//        if(options == null){
+//            EMClient.getInstance().init(context, initChatOptions());
+//        }else{
+//            EMClient.getInstance().init(context, options);
+//        }
         
         initNotifier();
         registerMessageListener();
